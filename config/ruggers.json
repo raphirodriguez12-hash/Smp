@@ -1,0 +1,16 @@
+[
+  {
+    "wallet": "EXEMPLE_WALLET_ADDRESS_1",
+    "alias": "Rugger Alpha",
+    "rugsCount": 12,
+    "lastRugAt": "2024-12-01",
+    "notes": "Rug systématique après 2x"
+  },
+  {
+    "wallet": "EXEMPLE_WALLET_ADDRESS_2",
+    "alias": "Rugger Beta",
+    "rugsCount": 7,
+    "lastRugAt": "2025-01-15",
+    "notes": "Rug entre 30s et 2min après launch"
+  }
+]
