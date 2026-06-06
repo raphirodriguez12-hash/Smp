@@ -1,0 +1,35 @@
+{
+  "appId": "com.stackescape.game",
+  "appName": "Stack Escape",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#0a0a0f",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#0a0a0f"
+    },
+    "AdMob": {
+      "appId": {
+        "android": "ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX",
+        "ios": "ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX"
+      },
+      "bannerAdId": {
+        "android": "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX",
+        "ios": "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX"
+      },
+      "interstitialAdId": {
+        "android": "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX",
+        "ios": "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX"
+      },
+      "rewardedAdId": {
+        "android": "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX",
+        "ios": "ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX"
+      }
+    }
+  }
+}

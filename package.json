@@ -1,0 +1,22 @@
+{
+  "name": "stack-escape",
+  "version": "1.0.0",
+  "description": "Stack Escape - Endless Vertical Runner Hyper-Casual",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cap:add:android": "npx cap add android",
+    "cap:add:ios": "npx cap add ios",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android",
+    "cap:open:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "phaser": "^3.70.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "@vitejs/plugin-legacy": "^5.4.0"
+  }
+}
